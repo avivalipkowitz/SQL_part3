@@ -1,0 +1,9 @@
+<html>
+    <body>
+    <h1>Student: {{github}}</h1>
+    {% for row in rows %}
+        <h2>Project: <a href="/project?project={{row[0]}}">{{row[0]}}</a> Grade: {{row[1]}}</h2>
+    {% endfor %}
+
+    </body> 
+</html>

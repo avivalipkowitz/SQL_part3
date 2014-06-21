@@ -1,0 +1,8 @@
+<html>
+<body>
+<h1>Project: {{project}}</h1>
+{% for row in rows %}
+    <h2>Student: <a href="/student?student={{row[0]}}">{{row[0]}}</a> Grade: {{row[1]}}</h2>
+{% endfor %}
+</body> 
+</html>
